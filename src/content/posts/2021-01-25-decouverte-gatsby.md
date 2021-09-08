@@ -1,10 +1,10 @@
 ---
 template: blog-post
-title: Coup d'éssai
+title: Découverte de Gatsby
 slug: /gatsby-decouverte
-date: 2021-01-25 16:20
+date: 2021-01-22 16:20
 description: test
-featuredImage: /assets/gatsby_logo-768x213.png.webp
+featuredImage: /assets/annie-spratt-hx_hf2lppuu-unsplash.jpg
 ---
 ## Gatsby Kézako ?
 

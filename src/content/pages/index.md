@@ -2,10 +2,13 @@
 template: index-page
 slug: /
 title: Siladire
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+tagline: Développeur junior et assistant chef de projet
+featuredImage:   /assets/undraw_Post_online_re_1b82.png
 cta:
-  ctaText: Know more
+  ctaText: En savoir plus
   ctaLink: /about
 ---
-He is a award winning gaming graphic designer, based in the sunny coast of southwestern France. Working as Principal designer at Memotroll
+Salut, je suis Laurent Dislaire.
+
+
+Vous trouverez dans ce blog, mes humeurs et mes coups de cœurs techniques ainsi que pas mal d'infos sur la reconversion vers le métier de développeur.

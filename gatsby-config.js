@@ -16,6 +16,13 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyDefault: 'fr',
+        useLangKeyLayout: false,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,

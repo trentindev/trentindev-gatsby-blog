@@ -63,6 +63,9 @@ const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
   const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ""
+  //TODO: remove
+  console.log('Image:--->  ',Image.src)
+  console.log('frontmatter--->  ',frontmatter)
   const { previous, next } = pageContext
 
   let props = {
@@ -75,7 +78,8 @@ const Post = ({ data, pageContext }) => {
       <SEO
         title={frontmatter.title}
         description={frontmatter.description ? frontmatter.description : excerpt}
-        image={Image}
+        //FIXME Image to SEO (attending string)
+        //image={Image}
         article={true}
       />
       <article className="blog-post">
@@ -118,7 +122,7 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 148)
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM, YYYY")
         slug
         title
         description
